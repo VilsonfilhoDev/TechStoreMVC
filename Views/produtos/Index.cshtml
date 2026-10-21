@@ -3,10 +3,17 @@
 que devo usar???????? *@
 @model List<TechStoreMVC.Models.Produto>
 
+@{
+    ViewData["Title"] = "Produtos";
+}
+
 <h1>
     Lista de Produtos
 </h1>
-<table class="table table-striped"> 
+<p>
+    <a asp-action="Create" class="btn btn-success">Novo produto</a>
+</p>
+<table class="table table-striped">
     @* Tipo da tabela acima com Bootstrap *@
     <thead>
         @* Cabeçalho da tabela *@
@@ -18,23 +25,31 @@ que devo usar???????? *@
             <th>Ações</th>
         </tr>
     </thead>
-     @* Imagine que a cada novo produto você tivesse que repetir isso
+    @* Imagine que a cada novo produto você tivesse que repetir isso
         toda a vez, seriam linhas sem fim. Por isso, usamos o foreach.
         
         O Foreach repete enquanto houver produtos existentes e ,se 
         existir, eles serão exibidos para ti nessa tela. *@
     <tbody>
-    @foreach (var produto in Model)
-    {
-        <tr>
-            <td>@produto.Id</td>
-            <td>@produto.Nome</td>
-            <td>R$ @produto.Preco.ToString("F2")</td>
-            <td>@produto.Estoque</td>
-            <td>
-                <button class="btn btn-primary">Detalhes</button>
-            </td>
-        </tr>
-    }
-</tbody>
+        @foreach (var produto in Model)
+        {
+            <tr>
+                <td>@produto.Id</td>
+                <td>@produto.Nome</td>
+                <td>R$ @produto.Preco.ToString("F2")</td>
+                <td>@produto.Estoque</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@produto.Id" class="btn btn-primary">
+                        Detalhos
+                    </a>
+                    <a asp-action="Edit" asp-route-id="@produto.Id" class="btn btn-warning">
+                        Editar
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@produto.Id" class="btn btn-danger">
+                        Excluir
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>

@@ -95,3 +95,4 @@ C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\refint\Tech
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMVC.pdb
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMVC.genruntimeconfig.cache
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\ref\TechStoreMVC.dll
+C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMVC.sourcelink.json
