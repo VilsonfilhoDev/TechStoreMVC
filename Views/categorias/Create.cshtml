@@ -1,0 +1,51 @@
+﻿
+@{
+}
+@model TechStoreMVC.Models.Categoria
+
+@{
+    ViewData["Title"] = "Cadastrar categoria";
+}
+
+<h1>Cadastrar categoria</h1>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly"
+         class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="Nome"
+               class="form-label"></label>
+
+        <input asp-for="Nome"
+               class="form-control" />
+
+        <span asp-validation-for="Nome"
+              class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Descricao"
+               class="form-label"></label>
+
+        <input asp-for="Descricao"
+               class="form-control" />
+
+        <span asp-validation-for="Descricao"
+              class="text-danger"></span>
+    </div>
+
+    <button type="submit"
+            class="btn btn-success">
+        Cadastrar
+    </button>
+
+    <a asp-action="Index"
+       class="btn btn-secondary">
+        Voltar
+    </a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

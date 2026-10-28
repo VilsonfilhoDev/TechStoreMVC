@@ -15,6 +15,7 @@ C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMV
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMVC.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMVC.RazorAssemblyInfo.cache
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMVC.RazorAssemblyInfo.cs
+C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMVC.sourcelink.json
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -90,9 +91,10 @@ C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\staticwebas
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMVC.dll
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\refint\TechStoreMVC.dll
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMVC.pdb
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMVC.genruntimeconfig.cache
 C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\ref\TechStoreMVC.dll
-C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStoreMVC.sourcelink.json
+C:\Users\43947806833\Desktop\Back_end\TechStoreMVC\obj\Debug\net10.0\TechStor.261B4A3E.Up2Date

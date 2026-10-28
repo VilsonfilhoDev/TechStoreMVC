@@ -1,0 +1,36 @@
+﻿@model TechStoreMVC.Models.Categoria
+
+@{
+    ViewData["Title"] = "Excluir Categoria";
+}
+
+<h1>Excluir Categoria</h1>
+
+<div class="alert alert-warning">
+    Tem certeza de que deseja excluir
+    esta categoria?
+</div>
+
+<dl class="row">
+    <dt class="col-sm-2">Nome</dt>
+    <dd class="col-sm-10">@Model.Nome</dd>
+
+  
+
+    <dt class="col-sm-2">Descricao</dt>x'
+    <dd class="col-sm-10">@Model.Descricao</dd>
+</dl>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input asp-for="Id" type="hidden" />
+
+    <button type="submit"
+            class="btn btn-danger">
+        Confirmar exclusão
+    </button>
+
+    <a asp-action="Index"
+       class="btn btn-secondary">
+        Cancelar
+    </a>
+</form>
